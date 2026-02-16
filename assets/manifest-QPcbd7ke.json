@@ -1,0 +1,23 @@
+
+{
+  "short_name": "متابع رمضان",
+  "name": "متابع مسلسلات رمضان",
+  "icons": [
+    {
+      "src": "https://picsum.photos/192/192",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://picsum.photos/512/512",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#6366f1",
+  "background_color": "#ffffff",
+  "dir": "rtl",
+  "lang": "ar"
+}
