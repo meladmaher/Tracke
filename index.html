@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
+<link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#000000">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>متابع مسلسلات رمضان</title>
@@ -46,5 +49,13 @@
 </head>
 <body class="bg-slate-50 text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100 overflow-x-hidden">
     <div id="root"></div>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./service-worker.js');
+}
+</script>
+
+
 </body>
 </html>
